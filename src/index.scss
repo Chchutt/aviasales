@@ -1,0 +1,19 @@
+#root{
+  background: #f1fcff;
+}
+
+.tabs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 68px;
+  margin-top: 15px;
+}
+
+.app{
+  width: 754px;
+  margin: auto;
+
+
+}

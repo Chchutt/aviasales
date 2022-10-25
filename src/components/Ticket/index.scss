@@ -1,0 +1,43 @@
+.ticket{
+  width: 502px;
+  height: 184px;
+  background: white;
+  box-shadow: 1px 2px 8px  rgba(34, 60, 80, 0.08);
+  border-radius: 10px;
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 462px;
+  height: 36px;
+  padding: 20px 20px 0 20px;
+  margin: 10px auto 10px auto;
+  font-size: 24px;
+  color: #2196F3;
+}
+.bottom{
+  width: 462px;
+  height: 39px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px auto 10px auto;
+}
+.bottom div{
+  width: 132px;
+  height: 39px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  p{
+    margin: 0;
+  }
+}
+
+.time-containers{
+  font-size: 14px;
+  color: #4A4A4A;
+}
+.time-title{
+  font-size: 12px;
+  color: #A0B0B9;
+}

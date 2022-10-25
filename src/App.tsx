@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
 import './index.scss'
 
-import { AppHeader } from './AppHeader'
-import { SwitchTabCenter } from './SwitchTapCenter'
-import { TicketsList } from './TicketsList'
-import { SwitchTabLeft } from './SwitchTabLeft'
+import { AppHeader } from './components/AppHeader'
+import { SwitchTabCenter } from './components/SwitchTapCenter'
+import { TicketsList } from './components/TicketsList'
+import { SwitchTabLeft } from './components/SwitchTabLeft'
+import { useTicketActions } from './hooks/useActions'
 
-export function App(): React.ReactElement {
+export const App = () => {
+  const { fetchId } = useTicketActions()
+  useEffect(() => {
+    fetchId()
+  }, [])
   return (
     <div className="app">
       <AppHeader />

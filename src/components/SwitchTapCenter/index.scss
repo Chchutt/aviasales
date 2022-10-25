@@ -1,0 +1,20 @@
+.tabCenter{
+  width: 502px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.center-button{
+  background: white;
+  width: 167px;
+  border: 1px solid #DFE5EC;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.center-button:focus,
+.center-button:hover {
+  background: #2196F3;
+  color: white;
+}
